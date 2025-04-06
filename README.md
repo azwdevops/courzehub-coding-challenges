@@ -1,4 +1,3 @@
-````markdown
 # 📘 LeetCode Python Solutions
 
 This repository contains my personal Python solutions to **randomly solved LeetCode coding challenges**. Problems span two difficulty levels — **Medium** and **Hard** — and cover a wide range of concepts.
@@ -34,7 +33,14 @@ This repository is intended to be a growing reference of Pythonic solutions as I
    git clone https://github.com/azwdevops/courzehub-coding-challenges.git
    cd courzehub-coding-challenges
    ```
-````
+
+```
+
+```
+
+```
+
+```
 
 2. Open any `.py` file to view the solutions.
 
@@ -59,8 +65,3 @@ This project is licensed under the [MIT License](LICENSE).
 ## ⭐️ Support
 
 If you find this repo helpful, a ⭐️ would be appreciated!
-
-```
-
----
-```
