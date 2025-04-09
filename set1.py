@@ -1,5 +1,12 @@
-from typing import List
+from typing import List, Optional
 from collections import deque
+
+
+class ListNode:
+    def __init__(self, val=0, next=None):
+        self.val = val
+        self.next = next
+
 
 # 220. Contains Duplicate III
 # https://leetcode.com/problems/contains-duplicate-iii
@@ -506,4 +513,29 @@ class Solution:
         return result
 
 
-# numbers in this set 220, 2425, 273, 3, 5, 6, 7, 8, 11, 12, 15, 16, 17, 18
+# 19. Remove Nth Node From End of List
+# https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/
+
+# Time Complexity O(n)
+# Space Complexity O(1)
+
+
+class Solution:
+    def removeNthFromEnd(self, head: Optional[ListNode], n: int) -> Optional[ListNode]:
+        dummy = ListNode(0, head)
+        p1 = head
+        p2 = dummy
+        count = 0
+
+        while p1 is not None:
+            p1 = p1.next
+            count += 1
+            if count > n:
+                p2 = p2.next
+
+        p2.next = p2.next.next
+
+        return dummy.next
+
+
+# numbers in this set 220, 2425, 273, 3, 5, 6, 7, 8, 11, 12, 15, 16, 17, 18,19
