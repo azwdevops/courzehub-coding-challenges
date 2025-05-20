@@ -1,1 +1,1 @@
-git commit -m "feat: solved the leetcode numbers 227, 229, 235, 236, 237, 238, 240, 241, 245,247, 250,253, 254, 255, 256, 259, 260, 261"
+git commit -m "feat: solved the leetcode numbers 264, 267, 271, 274, 275, 276, 277, 279, 280, 284, 285, 286, 288, 289, 291,294, 299"
