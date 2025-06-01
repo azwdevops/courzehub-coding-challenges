@@ -1,9 +1,3 @@
-x = 10
+from string import ascii_lowercase as lowercase
 
-
-def foo():
-    print(x)
-    x += 1
-
-
-foo()
+print(lowercase.index("a"))
